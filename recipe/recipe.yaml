@@ -1,5 +1,5 @@
 context:
-  version: "0.12.0"
+  version: "0.12.1"
 
 package:
   name: netwatch
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/matthart1983/netwatch/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 3b5df517c2634f0c60eb5d12748632ee0cdfa19a774307f3dfc985d620015002
+  sha256: e0fb5649841721893b8169e2f203d449a794eb94604c5f4657b7d97bec9106d7
 
 build:
   number: 0
