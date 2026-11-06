@@ -10,7 +10,7 @@ source:
   sha256: f72a0d41530f86f81a18f719b59115fd3a995e211eadda35685f68ceba469164
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
   script:
@@ -28,7 +28,7 @@ requirements:
     - ${{ compiler('rust') }}
     - cargo-bundle-licenses
     - cargo-auditable
-    - pkg-config
+    - pkgconf
   host:
     - libpcap
 
